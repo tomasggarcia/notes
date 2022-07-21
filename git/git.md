@@ -55,8 +55,8 @@ Here I think is important to see the different stages that your changes will hav
 
 ## Commit 
 
-So, now we select wich files we want to save, now we need to COMMIT these files.
-Committing is used to telling git that the changes you added to the staging area will be 'packing' in the same block unit. We will commit with a specific commit name so later we can se all commits sequentially as a tree.
+So, now that we select wich files we want to save, we need to COMMIT these files.
+Committing is used to telling git that the changes you added to the staging area will be 'packing' in the same block unit. We will commit with a specific name so later we can se all commits sequentially as a tree.
 For example:
 
 ![github](./assets/tree.png)
@@ -92,10 +92,10 @@ After that merge, the "footer" and "development" branches will have the same cod
 
 
 ## Push
-For last, we will want to upload these new commits to your repository hosting service to save them, or if your working in a team, to be accessed to the rest of the team.
+For last, we will want to upload these new commits to your repository hosting service (in this case Github) to save them, or if your working in a team, to be accessed to the rest of the team.
 So our last commands is:
 ```
-git merge footer
+git push development
 ```
 
-There are a lots of other commands to know in order to have a good workflow with GIT, but I think with this few you can start using it and taking advantage of the benefits that it provides to us.
+### There are a lots of other commands to know in order to have a good workflow with GIT, but I think with this few you can start using it and taking advantage of the benefits that it provides to us.
